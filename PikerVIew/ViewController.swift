@@ -28,8 +28,11 @@ class ViewController: UIViewController {
             let image = UIImage(named: "red\(i).jpg")
             imageArray.append(image)
         }
-        NSLog(imageFileName.description)
-        NSLog(imageArray.description)
+        
+        //테스트 코드
+        //NSLog(imageFileName.description)
+        //NSLog(imageArray.description)
+        
         //레이블과 이미지 뷰 초기화
         lblImageName.text = imageFileName[0]
         imageView.image = imageArray[0]
